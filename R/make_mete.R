@@ -1,14 +1,19 @@
 #' @title Title of function
 #'
-#' @description
+#' @description function to take raw data (x) and create all needed data, as well as all parameters and density functions
 #' \code{function.name} what it does
 #'
 #' @details
 #' how it works
 #' etc.
 #' 
-#' @param arg description of arg blah blah blah blah
-#' @param arg description of arg blah blahblah blah
+#' ##
+
+#' @param otu species ID????
+#' @param abund species abundance
+#' @param power species energy??
+#' @param min.e 
+#'
 #' @keywords manip
 #' @export
 #' 
@@ -26,13 +31,6 @@
 
 # library(distr)
 
-##	function to take raw data (x) and create all needed data, as
-##	well as all parameters and density functions
-##
-##	DATA:
-##		species abundance
-##		species energy
-##		individual energy
 makeMete <- function(otu,abund,power,min.e) {
 	otu <- as.character(otu)
 	
